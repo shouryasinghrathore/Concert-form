@@ -15,8 +15,8 @@ margin: 0;
 min-height: 100vh;
 }
 .container{
-    background: rgba(255, 255, 255, 0.089);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba(255, 255, 255, 0.0129);
+box-shadow: 0px 10px 10px 10px rgba(41, 50, 182, 0.099);
 backdrop-filter: blur( 8px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 4px;
@@ -47,7 +47,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-bottom: 5px;
 }
 .form-control input{
-    border: 2px solid #f0f0f0;
+    border: 2px solid #ffffffc7;
     border-radius: 4px;
     display: block;
     font-family: inherit;
@@ -77,8 +77,8 @@ left: 0;
     font-family: inherit;
     font-size: 16px;
     border-radius: 4px;
-    background:rgb(24, 24, 182);
-    border: 2px solid #1b40a7;
+    background:rgb(13, 13, 194);
+    border: 2px solid rgb(13, 13, 192);
     width: 100%;
     display:block;
 }
@@ -106,14 +106,22 @@ button{
     cursor:pointer;
 }
 input{
-    background-color: rgba(255, 255, 255, 0.589);
+    background-color: rgba(255, 255, 255, 0);
 }
 .cre{
-    color: rgb(241, 241, 241);
+    color: rgb(255, 255, 255);
+    font-weight: 450;
 }
 small{
     text-transform: capitalize;
 }
-.C{
-    color: black;
+
+@media (max-width:768px){
+    .container{
+        width: 95%;
+     
+    }
+ label{
+    font-size: 80%;
+ }
 }
