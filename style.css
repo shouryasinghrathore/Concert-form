@@ -62,7 +62,7 @@ label{
 }
 .form-control i{
     position: absolute;
-    top: 40px;
+    top: 39.5px;
     right: 10px;
     visibility: hidden;
 }
@@ -118,6 +118,11 @@ small{
 }
 label{
      font-size: 18px;
+    
+}
+input{
+    color: #fff;
+  
 }
 @media (max-width:768px){
     .container{
